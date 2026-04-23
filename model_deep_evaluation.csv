@@ -1,0 +1,3 @@
+Model Name,Accuracy,Precision,Recall,F1 Score,AUC Score,Sensitivity to Severe Cases,Screening Suitability,Clinical Reliability Notes,Deployment Suitability
+InceptionV3 (Transfer Learning Main),79.13%,0.80,0.79,0.79,0.86,High (81.6% base Abnormal Recall),Primary First-Pass Filter,Stable error bounds. Best candidate for production deployment due to conservative class predictions.,High - Edge GPU compatible.
+ResNet152 (Experimental Quantum Analytics),77.31%,Inferred,Inferred,Inferred,Inferred,Unknown / Unlogged,Academic Research Adjunct,Unproven. Too computationally dense for standard hospital inference architecture.,Low - strictly structural exploration.

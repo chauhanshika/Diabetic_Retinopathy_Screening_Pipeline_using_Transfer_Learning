@@ -1,0 +1,3 @@
+Class,Precision,Recall,F1 Score,Support,Clinical Risk Level,Notes
+Abnormal,0.7154,0.8161,0.7624,348,Critical (Miss = False Negative),High recall is excellent. Model aggressively catches pathology.
+Normal,0.8581,0.774,0.8139,500,Low (Miss = False Positive),"Lower recall means healthy patients are sometimes sent for manual review, ensuring safety margin."

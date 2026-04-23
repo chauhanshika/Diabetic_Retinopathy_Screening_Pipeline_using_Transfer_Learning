@@ -1,0 +1,27 @@
+{
+    "Abnormal": {
+        "precision": 0.7154,
+        "recall": 0.8161,
+        "f1-score": 0.7624,
+        "support": 348
+    },
+    "Normal": {
+        "precision": 0.8581,
+        "recall": 0.774,
+        "f1-score": 0.8139,
+        "support": 500
+    },
+    "accuracy": 0.7913,
+    "macro avg": {
+        "precision": 0.7867,
+        "recall": 0.795,
+        "f1-score": 0.7881,
+        "support": 848
+    },
+    "weighted avg": {
+        "precision": 0.7995,
+        "recall": 0.7913,
+        "f1-score": 0.7928,
+        "support": 848
+    }
+}
